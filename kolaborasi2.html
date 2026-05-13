@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="kolaborasi.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="#" class="logo">Firza</a>
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#skill">Skill</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="home">
+  <div class="home-content">
+    <h3>Hello It's Me</h3>
+    <h1>FIRZA</h1>
+    <h2>REVADIANTO</h2>
+    <p>I'm From Class X <span>PPLG ONE</span></p>
+    <div class="social-media">
+      <a href="#"><i class="bi bi-github"></i></a>
+      <a href="https://www.instagram.com/vaa.oyp?igsh=bjY2aW5tejVyb3ph"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-tiktok"></i></a>
+    </div>
+    <a href="#portfolio" class="btn">PORTFOLIO</a>
+  </div>
+  <div class="home-img">
+    <img src="i.png" alt="profile">
+  </div>
+</section>
+
+<!-- ABOUT ME -->
+<section id="about" class="about-section">
+  <h2>About <span class="highlight">Me</span></h2>
+  <div class="about-container">
+    <img src="i.png" alt="Profile Smaller" class="about-image" />
+    <p class="about-text">
+      Since childhood, I dreamed of becoming a football player. Playing football taught me about hard work, discipline, and teamwork. Even though my focus has changed over time, those values still guide me today.
+    </p>
+  </div>
+</section>
+
+<!-- MY SKILL -->
+<section id="skill" class="skill-section">
+  <h2 class="skill-title">MY <span class="highlight">SKILL</span></h2>
+  <div class="skill-container">
+
+    <div class="skill-card">
+      <div class="circle-box">
+        <svg class="progress-circle" viewBox="0 0 120 120">
+          <circle class="track" cx="60" cy="60" r="50"/>
+          <circle class="fill" cx="60" cy="60" r="50" data-persen="90"/>
+        </svg>
+        <span class="persen-teks">90%</span>
+      </div>
+      <p class="skill-nama">HTML</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle-box">
+        <svg class="progress-circle" viewBox="0 0 120 120">
+          <circle class="track" cx="60" cy="60" r="50"/>
+          <circle class="fill" cx="60" cy="60" r="50" data-persen="30"/>
+        </svg>
+        <span class="persen-teks">30%</span>
+      </div>
+      <p class="skill-nama">JS</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle-box">
+        <svg class="progress-circle" viewBox="0 0 120 120">
+          <circle class="track" cx="60" cy="60" r="50"/>
+          <circle class="fill" cx="60" cy="60" r="50" data-persen="50"/>
+        </svg>
+        <span class="persen-teks">50%</span>
+      </div>
+      <p class="skill-nama">CSS</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle-box">
+        <svg class="progress-circle" viewBox="0 0 120 120">
+          <circle class="track" cx="60" cy="60" r="50"/>
+          <circle class="fill" cx="60" cy="60" r="50" data-persen="45"/>
+        </svg>
+        <span class="persen-teks">45%</span>
+      </div>
+      <p class="skill-nama">BOOTSTRAP</p>
+    </div>
+
+    <div class="skill-card">
+      <div class="circle-box">
+        <svg class="progress-circle" viewBox="0 0 120 120">
+          <circle class="track" cx="60" cy="60" r="50"/>
+          <circle class="fill" cx="60" cy="60" r="50" data-persen="20"/>
+        </svg>
+        <span class="persen-teks">20%</span>
+      </div>
+      <p class="skill-nama">PYTHON</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- PORTOFOLIO -->
+<section id="portfolio" class="portfolio-section">
+  <h2 class="portfolio-title">PORTO<span>FOLIO</span></h2>
+
+  <div class="portfolio-grid">
+
+    <div class="porto-card">
+      <div class="porto-img-wrap">
+        <img src="kol1.jpg" alt="Projek Kolaborasi">
+        <div class="porto-overlay">
+          <a href="https://zafirza.github.io/kol/oo.html" class="porto-btn">my project<i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="porto-info">
+        <span class="porto-tag">Kolaborasi</span>
+        <h3 class="porto-name">Projek Kolaborasi</h3>
+      </div>
+    </div>
+
+    <div class="porto-card">
+      <div class="porto-img-wrap">
+        <img src="stm.jpg" alt="Sistem Manajemen Stano">
+        <div class="porto-overlay">
+          <a href="https://zafirza.github.io/projek/tugas2.html" class="porto-btn">my project<i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="porto-info">
+        <span class="porto-tag">Web App</span>
+        <h3 class="porto-name">Sistem Manajemen Stano</h3>
+      </div>
+    </div>
+
+    <div class="porto-card">
+      <div class="porto-img-wrap">
+        <img src="plh.jpg" alt="Pulihkan Hijau Bumi Kita">
+        <div class="porto-overlay">
+          <a href="https://zafirza.github.io/tugas/lingkungann.html" class="porto-btn">my project <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="porto-info">
+        <span class="porto-tag">Lingkungan</span>
+        <h3 class="porto-name">Pulihkan Hijau Bumi Kita</h3>
+      </div>
+    </div>
+
+    <div class="porto-card">
+      <div class="porto-img-wrap">
+        <img src="gme.jpg" alt="Game Development">
+        <div class="porto-overlay">
+          <a href="https://zafirza.github.io/gane/game.html" class="porto-btn">my project <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="porto-info">
+        <span class="porto-tag">Game</span>
+        <h3 class="porto-name">Game Development</h3>
+      </div>
+    </div>
+
+    <div class="porto-card">
+      <div class="porto-img-wrap">
+        <img src="sho.jpg" alt="Pulihkan Hijau Bumi Kita 2">
+        <div class="porto-overlay">
+          <a href="https://zafirza.github.io/j/j.html" class="porto-btn">my project <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="porto-info">
+        <span class="porto-tag">Fashion</span>
+        <h3 class="porto-name">Fashion And Appar</h3>
+      </div>
+    </div>
+  </div>
+</section>
+  <section class="contact" id="contact">
+    <h2 class="section-title">CONTACT</h2>
+
+    <form class="contact-form" id="contact">
+      <div class="form-row">
+        <input type="text" id="fullname" placeholder="full name" required />
+        <input type="email" id="email" placeholder="email address" required />
+      </div>
+      <div class="form-row">
+        <input type="tel" id="number" placeholder="number" required />
+        <input type="text" id="subject" placeholder="subject" required />
+      </div>
+      <textarea id="message" placeholder="your message" rows="6" required></textarea>
+      <button type="submit" class="btn-send">send message</button>
+    </form>
+
+    <div class="toast" id="toast">Message sent successfully! ✓</div>
+  </section>
+    <footer class="footer">
+    <div class="footer-left">
+      <p class="footer-name">Firza Revadianto</p>
+      <p>Web Developer • Student</p>
+      <p>I enjoy building simple, modern,<br>and interactive websites.</p>
+    </div>
+
+    <div class="footer-menu">
+      <p class="footer-heading">MENU</p>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skill">Skill</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <p class="footer-heading">CONTACT</p>
+      <p><a href="mailto:pirza@gmail.com">pirza@gmail.com</a></p>
+      <p>Semarang, Indonesia</p>
+    </div>
+
+    <div class="footer-social">
+      <p class="footer-heading">Follow Me</p>
+      <div class="social-icons">
+        <a href="#" class="icon-btn" aria-label="GitHub">
+        <i class="bi bi-github"></i>
+        </a>
+        <a href="#" class="icon-btn" aria-label="TikTok">
+          <i class="bi bi-tiktok"></i>
+        </a>
+        <a href="#" class="icon-btn" aria-label="Instagram">
+          <i class="bi bi-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+<script src="kolaborasi.js"></script>
+</body>
+</html>
